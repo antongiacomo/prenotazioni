@@ -10,27 +10,27 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "@babel/plugin-proposal-class-properties": "^7.4.0",
-        "@babel/preset-react": "^7.0.0",
-        "axios": "^0.18",
-        "bootstrap": "^4.0.0",
-        "cross-env": "^5.1",
-        "jquery": "^3.2",
-        "laravel-mix": "^4.0.7",
-        "lodash": "^4.17.5",
-        "popper.js": "^1.12",
-        "react": "^16.2.0",
-        "react-dom": "^16.2.0",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/preset-react": "^7.16.7",
+        "axios": "^0.18.1",
+        "bootstrap": "^4.6.1",
+        "cross-env": "^5.2.1",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^4.1.4",
+        "lodash": "^4.17.21",
+        "popper.js": "^1.16.1",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
         "resolve-url-loader": "^2.3.1",
-        "sass": "^1.15.2",
-        "sass-loader": "^7.1.0",
+        "sass": "^1.49.9",
+        "sass-loader": "^7.3.1",
         "sweetalert": "^2.1.2",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.8.1",
+        "@fortawesome/fontawesome-free": "^5.15.4",
         "awesome-bootstrap-checkbox": "^1.0.1",
-        "flatpickr": "^4.5.7",
+        "flatpickr": "^4.6.11",
         "font-awesome": "^4.7.0"
     },
     "babel": {

@@ -25,7 +25,7 @@
                         <div class="col">
                             <p class="h5 text-primary"> {{$azienda}}</p>
                             @foreach($lista as $nome => $prodotto)
-                                <span class="font-weight-bold clickable-heading"> {{$nome}}: </span>
+                                <span class=" clickable-heading" style="font-weight: 500;"> {{$nome}}: </span>
                                 <span class="text-success " style="display: none">
                                 @foreach($prodotto as $unit => $pezzi)
 
@@ -64,7 +64,7 @@
 
                                         @endforeach
                                      </span>
-                                <span class="font-weight-bold">
+                                <span class="font-weight-bold " style="text-decoration: underline;">
                                         {{$total}}
                                     @if($unit == 0)
                                         kg
